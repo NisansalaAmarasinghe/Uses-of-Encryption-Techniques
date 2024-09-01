@@ -29,38 +29,12 @@ This project explores encryption techniques using Python. It implements two comm
   <h2>Usage</h2>
   <ol>
     <li><strong>Import necessary libraries:</strong>
-      ```python
-      import numpy as np
-      import matplotlib.pyplot as plt
-      from cryptography.ciphers import KamasutraCipher, CaesarCipher
-      from cryptography.dhke import DHKE
-      ```
     </li>
     <li><strong>Create cipher objects and perform encryption:</strong>
-      ```python
-      plaintext = "Your Full Name"
-      ka_cipher = KamasutraCipher()
-      ca_cipher = CaesarCipher(shift=11)
-
-      ka_ciphertext = ka_cipher.encrypt(plaintext)
-      ca_ciphertext = ca_cipher.encrypt(plaintext)
-      ```
     </li>
     <li><strong>Analyze letter frequencies and create a histogram:</strong>
-      ```python
-      analyzer = FrequencyAnalyzer(ca_ciphertext)
-      analyzer.analyze()
-      analyzer.plot_histogram()
-      ```
     </li>
-    <li><strong>Implement DHKE:</strong>
-      ```python
-      dhke = DHKE()
-      dhke.generate_parameters()
-      tim_private_key, tim_public_key = dhke.generate_keys()
-      stephen_private_key, stephen_public_key = dhke.generate_keys()
-      shared_key = dhke.compute_shared_key(tim_private_key, stephen_public_key)
-      ```
+    <li><strong>Implement DHKE</strong>
     </li>
   </ol>
 
