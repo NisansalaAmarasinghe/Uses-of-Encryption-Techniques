@@ -28,15 +28,21 @@ This project explores encryption techniques using Python. It implements two comm
 
   <h2>Usage</h2>
   <ol>
-    <li><strong>Import necessary libraries:</strong>
+    <li>Import necessary libraries.
     </li>
-    <li><strong>Create cipher objects and perform encryption:</strong>
+    <li>Create cipher objects and perform encryption.
     </li>
-    <li><strong>Analyze letter frequencies and create a histogram:</strong>
+    <li>Analyze letter frequencies and create a histogram.
     </li>
-    <li><strong>Implement DHKE</strong>
+    <li>Implement DHKE.
     </li>
   </ol>
+  
+   <h2>Technologies Used</h2>
+  <ul>
+    <li>Google Colab</li>
+    <li>Python</li>
+  </ul>
 
   <h2>Additional Notes</h2>
   <ul>
@@ -44,3 +50,5 @@ This project explores encryption techniques using Python. It implements two comm
     <li><strong>Prime Number and Primitive Root:</strong> In DHKE, the generated prime number should be sufficiently large for security.</li>
     <li><strong>Error Handling:</strong> Consider adding error handling for invalid inputs or unexpected scenarios.</li>
   </ul>
+    <h2>Author</h2>
+  <p><strong>Nisansala Amarasinghe</strong></p>
